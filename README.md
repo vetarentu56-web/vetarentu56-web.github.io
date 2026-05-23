@@ -7,7 +7,7 @@ a powerfull python / c engine for windows
 first, create a file called main.py
 second, add this into the file
 
-```
+```python
 import gamem2d
 
 gamem2d.init()
