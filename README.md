@@ -1,2 +1,5 @@
-# vetarentu56-web.github.io
-a basic website for the official Gagem Engine
+# Gamem Engine
+a powerfull python / c engine for windows
+
+## documentation
+# creating a sprite
