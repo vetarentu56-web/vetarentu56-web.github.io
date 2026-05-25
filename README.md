@@ -4,9 +4,15 @@ A lightweight 2D game engine made with **C + Python**.
 
 Gamem2D uses a DLL-based engine core written in C and a Python wrapper using `ctypes`, giving simple game creation while keeping good performance.
 
-Current version: **0.5.2 Stable**
+Current version: **0.5.3 Stable**
 
 ---
+
+# 📝 Changelog
+
+**0.5.3 stable**
+- 🖥️ Added dynamic display screen width and height detection
+- fixed screen resizing issues
 
 # ✨ Features
 
@@ -33,7 +39,7 @@ Current features:
 Gamem2D/
 │
 ├── gamem2d.c
-├── gamem2d-build-0-5-2.dll
+├── gamem2d-build-0-5-3.dll
 ├── gamem2d.py
 └── main.py
 
@@ -62,7 +68,7 @@ Compiler:
 Compile the DLL:
 
 ```bash
-gcc gamem2d.c -shared -o gamem2d-build-0-5-2.dll -lgdi32 -luser32 -lkernel32
+gcc gamem2d.c -shared -o gamem2d-build-0-5-3.dll -lgdi32 -luser32 -lkernel32
 ```
 
 ---
@@ -261,7 +267,7 @@ wall
 
 # 🛣 Roadmap
 
-## Gamem2D 0.5.3
+## Gamem2D 0.6.0
 
 Planned:
 
@@ -272,7 +278,7 @@ Planned:
 
 ---
 
-## Gamem2D 0.6.0
+## Gamem2D 0.7.0
 
 Planned:
 
