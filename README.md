@@ -32,7 +32,7 @@ Current features:
 ```text
 Gamem2D/
 │
-├── gamem2d-build-0-5-2.c
+├── gamem2d.c
 ├── gamem2d-build-0-5-2.dll
 ├── gamem2d.py
 └── main.py
@@ -62,7 +62,7 @@ Compiler:
 Compile the DLL:
 
 ```bash
-gcc gamem2d-build-0-5-1.c -shared -o gamem2d-build-0-5-1.dll -lgdi32 -luser32 -lkernel32
+gcc gamem2d.c -shared -o gamem2d-build-0-5-2.dll -lgdi32 -luser32 -lkernel32
 ```
 
 ---
